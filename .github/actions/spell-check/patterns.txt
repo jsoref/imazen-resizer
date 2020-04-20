@@ -1,0 +1,19 @@
+# github
+https://github.com/\S+
+# Hex
+(?:0[Xx]|U\+|#)[a-f0-9A-FGgRr]{2,}[Uu]?[Ll]?\b
+\&color\d=[A-F0-9]{8}
+imageresizer-logo-[a-f0-9]+\.
+publicKeyToken="[a-f0-9]+"
+PublicKeyToken=[a-f0-9]+,
+#
+Secret: test[a-f0-9]+
+# GUID
+Guid\("[A-Fa-f0-9-]*"
+# License
+(?:License \d+.*|\))\s*:[A-Za-z0-9+/:=]+"
+R4Performance\):[A-Za-z0-9+/=:]*
+#
+AccountKey=[A-Za-z0-9+/=:]+
+# Travis
+^    secure: [A-Za-z0-9+/=:]*$
